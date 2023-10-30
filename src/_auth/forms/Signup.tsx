@@ -60,7 +60,7 @@ const Signup = () => {
     }
 
     return (
-        <div className="sm:w-420 mx-auto text-center justify-center items-center flex-col ">
+        <div className="px-4 sm:w-420 mx-auto text-center justify-center items-center flex-col ">
             <img src="/assets/images/logo.svg" alt="logo" className=" mx-auto" />
             <h3 className="text-2xl font-bold mt-3">Create a new account</h3>
             <p className="mt-3 mb-3 text-gray-400 text-[14px]">To use Snapgram, please enter your details</p>
