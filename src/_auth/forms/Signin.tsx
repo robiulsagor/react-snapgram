@@ -23,7 +23,7 @@ const Signin = () => {
 
                 <div>
                     <button type="submit" className="bg-indigo-600 w-full p-2 rounded-md mt-3 font-bold">Sign In</button>
-                    <p className="mt-4">Don't have an account? <Link to='/signup' className="font-bold underline">Register</Link> </p>
+                    <p className="mt-4">Don't have an account? <Link to='/signup' className="font-bold underline">Sign Up</Link> </p>
                 </div>
 
             </form>
