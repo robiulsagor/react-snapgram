@@ -46,15 +46,19 @@ const Signup = () => {
 
         if (!formData.password) {
             newFormErr.password = "Please type a password!";
+            console.log("try");
+            console.log(formData.password);
+
         } else {
-            newFormErr.password = "";
+            if (formData.password.length < 5) {
+                console.log("try2");
+                newFormErr.password = "Password must be over 5 chars!";
+            } else {
+                newFormErr.password = "";
+            }
         }
 
-        if (formData.password && formData.password.length < 5) {
-            newFormErr.password = "Password must be over 5 chars!";
-        } else {
-            newFormErr.password = "";
-        }
+
 
         setFormErr(newFormErr);
     }
